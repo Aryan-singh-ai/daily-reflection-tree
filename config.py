@@ -1,0 +1,2 @@
+ALLOWED_RESPONSES = ["yes", "no"]
+MAX_INPUT_LENGTH = 50

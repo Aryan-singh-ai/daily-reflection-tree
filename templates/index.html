@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Daily Reflection</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Daily Reflection Tree</h1>
+
+        <label>Did you complete your task?</label>
+        <select id="task">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select>
+
+        <label>Were you productive?</label>
+        <select id="productivity">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select>
+
+        <button onclick="submitData()">Evaluate</button>
+
+        <h2 id="result"></h2>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
